@@ -1,0 +1,47 @@
+.Center {
+  display: grid;
+  background-color: black;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 100%;
+}
+.All {
+  display: grid;
+  grid-template-columns: max-content 100%;
+}
+.Header h3{
+  font-size: 15px;
+  height: 28px;
+  border-top: 1px solid #61de2a;
+}
+
+.Header {
+  display: grid;
+  height: 42px;
+  border-bottom: 2px solid #61de2a;
+  justify-content: center;
+  color: white;
+  grid-template-columns: max-content max-content max-content;
+  align-items: center;
+
+}
+
+.Dollar1 {
+  height: 24px;
+  margin-right: 5px;
+  border-right: 1px solid #61de2a;
+}
+
+.Dollar2 {
+  height: 24px;
+  margin-left: 5px;
+  border-left: 1px solid #61de2a;
+}
+.Coins {
+  height: 970px;  
+  position: relative;
+  color: white;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 250px;
+}

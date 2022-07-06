@@ -1,0 +1,53 @@
+.headericon {
+        display: grid;
+        color: white;
+        border-bottom: 2px solid #61de2a;
+        justify-content: space-between;
+        justify-items: center;
+        width: 110px;
+        height: 40px;
+        grid-template-rows: max-content;
+        grid-template-columns: max-content max-content max-content;
+        margin-top: 2px;
+        margin-right: 8px;
+}
+.Header {
+    width: 110px;
+    height: 1012px;
+    display: grid;
+    grid-template-columns: 110px;
+    grid-template-rows: max-content;
+    background-color: black;
+    justify-items: center;
+    grid-gap: 300px;
+    border-right: 2px solid #61de2a;
+    position: fixed;
+    z-index: 131;
+}
+.Header h2{
+    color: white;
+    font-size: 20px;
+    justify-items: center;
+}
+.Header p {
+    font-size: 5px;
+}
+.dollars1 {
+    padding-top: 4px;
+    border-right: 1px solid #61de2a;
+    padding-right: 5px;
+}
+
+.dollars2 {
+    height: 35px;
+    width: 30px;
+    padding-top: 8px;
+    border-left: 1px solid #61de2a;
+    padding-left: 5px;
+}
+
+.Voting a{
+        color: white;
+        font-size: 20px;
+        justify-items: center;
+}
